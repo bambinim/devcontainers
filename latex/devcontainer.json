@@ -1,0 +1,16 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+	"name": "Latex",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"James-Yu.latex-workshop"
+			]
+		}
+	},
+	"remoteUser": "user",
+	"updateRemoteUserUID": true
+}
